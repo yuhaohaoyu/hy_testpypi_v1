@@ -1,0 +1,7 @@
+name: Placeholder Workflow
+on: workflow_dispatch # Allows you to manually trigger it, otherwise it does nothing.
+jobs:
+  nothing:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "This is a placeholder"
